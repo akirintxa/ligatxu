@@ -1,0 +1,39 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+img {
+	width: 100%;
+}
+
+.top-nav {
+	margin-top: 10px;
+	height: 40px;
+	list-style-type: none;
+	padding-left: 0;
+	background-color: yellow;
+}
+
+.top-nav-item li {
+	display: inline-block;
+}
+
+.top-nav-item a {
+	text-decoration: none;
+	color: white;
+	background-color: black;
+	padding: 5px;
+}
+
+.top-nav-item a:hover {
+	color: blue;
+}
+.top-nav-item a:active {
+	color: red;
+}
+
+.top-nav-item a::after {
+	content: " | ";
+}
